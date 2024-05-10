@@ -1,0 +1,37 @@
+CS412 Test Cases Runtime and Outputs:
+
+Test case #1:
+approx: 0.02 seconds, 12.0
+exact: 0.03 seconds, 12.0
+
+Test case #2:
+approx: 0.02 seconds, 13.0
+exact: 0.02 seconds, 19.0
+
+Test case #3:
+approx: 0.02 seconds, 50.0
+exact: 0.02 seconds, 80.0
+
+Test case #4:
+approx: 0.02 seconds, 148.0
+exact: 0.02 seconds, 127.0
+
+Test case #5:
+approx: 0.03 seconds, 373.0
+exact: 0.03 seconds, 705.0
+
+Test case #6:
+approx: 0.08 seconds, 6679
+exact: 0.08 seconds, 10150
+
+Test case #7:
+approx: 2.02 seconds, 1883
+exact: 15 mins before error
+
+Test case #8:
+approx: 1.05 seconds, 47043
+exact: 10 mins before error
+
+Test case #9:
+approx: 6.17 seconds, 2292
+exact: over 20 mins
