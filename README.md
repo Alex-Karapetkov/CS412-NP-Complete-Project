@@ -1,1 +1,2 @@
-# CS412-NP-Complete-Project
+# CS412 Applied Algorithms: NP-Complete Project
+  Traveling Salesman Problem
