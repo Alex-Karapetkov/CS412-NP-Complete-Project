@@ -1,12 +1,32 @@
-Both the approximation solution and exact solution accept this kind of user input:\
-Example Input\
-3 3\
-a b 3\
-b c 4\
+# 🧠 Code Solutions – TSP Project
+
+This folder contains the core implementations for solving the Traveling Salesman Problem (TSP) using both approximation and exact algorithms.
+
+## Files
+
+- `cs412_tsp_approx.py` – 2-approximation algorithm using Prim’s MST and preorder DFS
+- `cs412_tsp_optimal.py` – Exact solution using the 2-Opt heuristic
+- `gen.py` – Utility to generate graph inputs from (x, y) coordinates
+- `test_cases/` – Contains all input/output test files and scripts for automated testing
+
+## Input/Output Format
+
+Both the approximation and exact solutions accept input in the following format:
+
+**Example Input:**
+3 3
+a b 3
+b c 4
 a c 5
 
-The input is a weighted graph specified by a line containing the number of vertices n and the number of edges m followed by m lines containing the edges given in u v w format, representing an edge between u and v of weight w.\
-The output contains two lines: the length of the path on one line followed by a list of vertices for the path/cycle on the second line. For example, the correct output to the example input is:
+- The first line contains the number of vertices `n` and the number of edges `m`.
+- Each of the next `m` lines describes an edge in the format `u v w`, representing an edge between vertices `u` and `v` with weight `w`.
 
-12\
+**Example Output:**
+12
 a b c a
+
+- The first line is the total cost of the tour.
+- The second line is the tour path, listing each visited vertex in order, ending back at the starting vertex to complete the cycle.
+
+For usage instructions and project details, refer to the main [README](../README.md).
