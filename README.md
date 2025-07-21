@@ -105,10 +105,12 @@ Outputs a output.txt file formatted as TSP input.
 
 📊 Performance Highlights
 ```
-Test Case	Approx. Cost	Exact Cost	Approx. Tour	Exact Tour
-2	13	19	a → d → b → e → c → a	b → c → a → d → e → b
-3	50	80	a → b → c → d → a	b → a → c → d → b
-...	...	...	...	...
+| Test Case | Approx. Cost | Exact Cost | Approx. Tour                | Exact Tour               |
+|-----------|--------------|------------|----------------------------|---------------------------|
+| 2         | 13           | 19         | a → d → b → e → c → a      | b → c → a → d → e → b     |
+| 3         | 50           | 80         | a → b → c → d → a          | b → a → c → d → b         |
+| ...       | ...          | ...        | ...                        | ...                       |
+
 ```
 
 See test_case_results.txt for full comparison of all test cases.
