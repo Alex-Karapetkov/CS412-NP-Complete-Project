@@ -11,7 +11,6 @@ The project focused on solving the **Traveling Salesman Problem (TSP)** using bo
 - Polynomial-time certifier and NP-completeness
 - Reduction from Hamiltonian Cycle Problem
 - Pseudocode and runtime analysis of both algorithms
-- Comparison of test case outputs: approximation vs. exact
 - Practical applications in routing, logistics, and hardware design
 
 
