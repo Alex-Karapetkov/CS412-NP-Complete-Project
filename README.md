@@ -24,7 +24,14 @@ This project implements:
 
 ## 📁 Repository Structure
 
-The repository is organized with a top-level code_solution/ directory that contains all source code and supporting files. Inside it, you'll find two main Python scripts: cs412_tsp_approx.py, which implements the approximation algorithm using Prim’s Minimum Spanning Tree and a preorder DFS walk, and cs412_tsp_optimal.py, which implements the exact solution using the 2-Opt heuristic. The gen.py script provides a utility to generate test case input files from user-supplied city coordinates using Euclidean distance. A nested test_cases/ folder includes all test inputs (testcaseX_input.txt) and their corresponding expected outputs (testcaseX_output.txt), along with a run_test_cases.sh script to execute all cases at once and a test_case_results.txt file summarizing output.
+The repository is organized with a top-level code_solution/ directory that contains all source code and supporting files. Inside it, you'll find two main Python scripts: 
+- cs412_tsp_approx.py, which implements the approximation algorithm using Prim’s Minimum Spanning Tree and a preorder DFS walk
+- cs412_tsp_optimal.py, which implements the exact solution using the 2-Opt heuristic.
+
+The gen.py script provides a utility to generate test case input files from user-supplied city coordinates using Euclidean distance. A nested test_cases/ folder includes all test inputs (testcaseX_input.txt) and their corresponding expected outputs (testcaseX_output.txt), along with a run_test_cases.sh script to execute all cases at once and a test_case_results.txt file summarizing output.
+
+## Project Presentation Slides
+📄 Project presentation slides are available in the Presentation_Slides/ folder.
 
 ---
 
