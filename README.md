@@ -24,19 +24,7 @@ This project implements:
 
 ## 📁 Repository Structure
 
-📦 cs412-tsp-project/
-├── code_solution/
-│ ├── cs412_tsp_approx.py # Approximation algorithm (MST + DFS)
-│ ├── cs412_tsp_optimal.py # Exact solution using 2-Opt
-│ ├── gen.py # Utility to generate input from city coordinates
-│ └── test_cases/
-│ ├── run_test_cases.sh # Script to run all test cases
-│ ├── test_case_results.txt # Combined output for test cases
-│ ├── testcase1_input.txt # Test case inputs (1–8)
-│ ├── testcase1_output.txt # Test case expected outputs (1–8)
-│ └── ... # Other test cases
-└── presentation.pdf # Final presentation slides
-
+The repository is organized with a top-level code_solution/ directory that contains all source code and supporting files. Inside it, you'll find two main Python scripts: cs412_tsp_approx.py, which implements the approximation algorithm using Prim’s Minimum Spanning Tree and a preorder DFS walk, and cs412_tsp_optimal.py, which implements the exact solution using the 2-Opt heuristic. The gen.py script provides a utility to generate test case input files from user-supplied city coordinates using Euclidean distance. A nested test_cases/ folder includes all test inputs (testcaseX_input.txt) and their corresponding expected outputs (testcaseX_output.txt), along with a run_test_cases.sh script to execute all cases at once and a test_case_results.txt file summarizing output.
 
 ---
 
